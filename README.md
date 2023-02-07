@@ -4,17 +4,23 @@ The data contains the modal share distribution. The data has 999 observations, c
 
 ## Variable description
 
-ID - unique identifier of the observation
+CityID - unique identifier for the metropolitan area. Repeated IDs correspond to two or more observations for the same city.
 
-City - name of the city
+ObsID - unique identifier of the observation. 
+
+year - year of the sample
+
+LastObservation - binary, detailing whether the number corresponds to the latest observation of the city
+
+Country - name of the country
 
 state_name - name of the state if available
 
 state_abbr - state abbreviation if available
 
-Country - name of the country
+City - name of the city
 
-year - year of the sample
+metro_names - name of the metropolitan area if available (mostly in the US). The name for some cities corresponds to the largest municipality of the metropolitan area
 
 population - estimated population corresponding to the year of the observations
 
@@ -36,11 +42,6 @@ IncomeGroup - Income group of the country, according to the World Bank classific
 
 Region - world region  - Europe anc Central Asia; Latin America and Caribbean; East Asia and Pacific; South Asia; North America; Sub-Saharan Africa
 
-LastObservation - binary, detailing whether the number corresponds to the latest observation of the city
-
-metro_names - name of the metropolitan area if available (mostly in the US)
-
 DataSource - name of the data source reported
 
 DataLink -  link to the data reported
-
