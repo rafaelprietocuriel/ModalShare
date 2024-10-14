@@ -1,6 +1,6 @@
 # ModalShare
 Modal share across metropolitan areas.
-The data contains the modal share distribution. The data has 999 observations, corresponding to 801 metropolitan areas. 
+The data contains the modal share distribution. The data has 1092 observations, corresponding to 876 metropolitan areas. 
 
 ## Variable description
 
