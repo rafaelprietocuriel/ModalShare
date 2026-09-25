@@ -1,6 +1,5 @@
-# ModalShare
-Modal share across metropolitan areas.
-The data contains the modal share distribution. The data has 1092 observations, corresponding to 876 metropolitan areas. 
+# Modal Share data
+Modal share across metropolitan areas. The data contains the modal share distribution. The data has 3306 observations, corresponding to 1236 metropolitan areas. 
 
 ## Variable description
 
@@ -10,7 +9,7 @@ ObsID - unique identifier of the observation.
 
 year - year of the sample
 
-LastObservation - binary, detailing whether the number corresponds to the latest observation of the city
+LastObservation - binary, indicating whether the number corresponds to the latest observation of the city
 
 Country - name of the country
 
@@ -30,17 +29,17 @@ latitude - y coordinate
 
 Walking - % of people that walk to work
 
-Cycling - % of people that cycle to work
+Cycling - % of people who cycle to work
 
-Active - % of people that have active mobility to work, including walking, cycling and others
+Active - % of people who have active mobility to work, including walking, cycling and others
 
-Bus - % of people that use public transport to work
+Bus - % of people who use public transport to work
 
-Car - % of people that use car to work
+Car - % of people who use a car to work
 
 IncomeGroup - Income group of the country, according to the World Bank classification
 
-Region - world region  - Europe anc Central Asia; Latin America and Caribbean; East Asia and Pacific; South Asia; North America; Sub-Saharan Africa
+Region - world region  - Europe and Central Asia; Latin America and Caribbean; East Asia and Pacific; South Asia; North America; Sub-Saharan Africa
 
 DataSource - name of the data source reported
 
